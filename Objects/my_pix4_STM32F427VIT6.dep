@@ -1,0 +1,10 @@
+Dependencies for Project 'my_pix4', Target 'STM32F427VIT6': (DO NOT MODIFY !)
+F (.\SRC\main\main.c)(0x556FAB37)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMS -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F427xx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\SRC\lib\CMS\stm32f4xx.h)(0x54FFE34C)
+I (.\SRC\lib\CMS\stm32f427xx.h)(0x53ABA05A)
+I (.\SRC\lib\CMS\core_cm4.h)(0x53ABA044)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\SRC\lib\CMS\core_cmInstr.h)(0x53ABA044)
+I (.\SRC\lib\CMS\core_cmFunc.h)(0x53ABA044)
+I (.\SRC\lib\CMS\core_cm4_simd.h)(0x53ABA044)
+I (.\SRC\lib\CMS\system_stm32f4xx.h)(0x53ABA05A)
