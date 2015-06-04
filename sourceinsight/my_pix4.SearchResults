@@ -1,0 +1,5 @@
+---- TICK_INT_PRIORITY Matches (4 in 4 files) ----
+Stm32f4xx_hal.c (c:\artyson\my_pix4\src\lib\stm32f4xx_hal_driver\src):  HAL_InitTick(TICK_INT_PRIORITY);
+Stm32f4xx_hal_conf.h (c:\artyson\my_pix4\src\main):#define  TICK_INT_PRIORITY            ((uint32_t)0x0F) /*!< tick interrupt priority */
+Stm32f4xx_hal_conf_template.h (c:\artyson\my_pix4\src\lib\stm32f4xx_hal_driver\inc):#define  TICK_INT_PRIORITY            ((uint32_t)0x0F) /*!< tick interrupt priority */
+Stm32f4xx_hal_rcc.c (c:\artyson\my_pix4\src\lib\stm32f4xx_hal_driver\src):  HAL_InitTick (TICK_INT_PRIORITY);

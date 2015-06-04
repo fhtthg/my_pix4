@@ -25,6 +25,20 @@ void LED_Init(Led_TypeDef Led)
 }
 
 
+void LED_Off(Led_TypeDef Led)
+{
+    HAL_GPIO_WritePin(GPIO_PORT[Led], GPIO_PIN[Led], GPIO_PIN_SET);
+}
 
+void LED_On(Led_TypeDef Led)
+{
+    HAL_GPIO_WritePin(GPIO_PORT[Led], GPIO_PIN[Led], GPIO_PIN_RESET);
+}
+
+
+void LED_Toggle(Led_TypeDef Led)
+{
+  HAL_GPIO_TogglePin(GPIO_PORT[Led], GPIO_PIN[Led]);
+}
 
 
