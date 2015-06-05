@@ -64,3 +64,5 @@
 .\objects\main.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_hcd.h
 .\objects\main.o: .\SRC\led\led.h
 .\objects\main.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h
+.\objects\main.o: .\SRC\uart\uart.h
+.\objects\main.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
