@@ -1,0 +1,146 @@
+;#<FEEDBACK># ARM Linker, 5050106: Last Updated: Mon Jun 08 10:18:51 2015
+;VERSION 0.2
+;FILE led.o
+LED_Off <= USED 0
+LED_On <= USED 0
+LED_Toggle <= USED 0
+__asm___5_led_c_c84236cb____REV16 <= USED 0
+__asm___5_led_c_c84236cb____REVSH <= USED 0
+;FILE main.o
+__asm___6_main_c_4557ba80____REV16 <= USED 0
+__asm___6_main_c_4557ba80____REVSH <= USED 0
+;FILE startup_stm32f427xx.o
+;FILE stm32f4xx_hal.o
+HAL_DeInit <= USED 0
+HAL_DisableCompensationCell <= USED 0
+HAL_DisableDBGSleepMode <= USED 0
+HAL_DisableDBGStandbyMode <= USED 0
+HAL_DisableDBGStopMode <= USED 0
+HAL_DisableMemorySwappingBank <= USED 0
+HAL_EnableCompensationCell <= USED 0
+HAL_EnableDBGSleepMode <= USED 0
+HAL_EnableDBGStandbyMode <= USED 0
+HAL_EnableDBGStopMode <= USED 0
+HAL_EnableMemorySwappingBank <= USED 0
+HAL_GetDEVID <= USED 0
+HAL_GetHalVersion <= USED 0
+HAL_GetREVID <= USED 0
+HAL_MspDeInit <= USED 0
+HAL_ResumeTick <= USED 0
+HAL_SuspendTick <= USED 0
+__asm___15_stm32f4xx_hal_c_HAL_Init____REV16 <= USED 0
+__asm___15_stm32f4xx_hal_c_HAL_Init____REVSH <= USED 0
+;FILE stm32f4xx_hal_cortex.o
+HAL_NVIC_ClearPendingIRQ <= USED 0
+HAL_NVIC_DisableIRQ <= USED 0
+HAL_NVIC_EnableIRQ <= USED 0
+HAL_NVIC_GetActive <= USED 0
+HAL_NVIC_GetPendingIRQ <= USED 0
+HAL_NVIC_GetPriority <= USED 0
+HAL_NVIC_GetPriorityGrouping <= USED 0
+HAL_NVIC_SetPendingIRQ <= USED 0
+HAL_NVIC_SystemReset <= USED 0
+HAL_SYSTICK_CLKSourceConfig <= USED 0
+HAL_SYSTICK_Callback <= USED 0
+HAL_SYSTICK_IRQHandler <= USED 0
+__asm___22_stm32f4xx_hal_cortex_c_2992dbc0____REV16 <= USED 0
+__asm___22_stm32f4xx_hal_cortex_c_2992dbc0____REVSH <= USED 0
+;FILE stm32f4xx_hal_dma.o
+HAL_DMA_Abort <= USED 0
+HAL_DMA_DeInit <= USED 0
+HAL_DMA_GetError <= USED 0
+HAL_DMA_GetState <= USED 0
+HAL_DMA_IRQHandler <= USED 0
+HAL_DMA_Init <= USED 0
+HAL_DMA_PollForTransfer <= USED 0
+HAL_DMA_Start <= USED 0
+HAL_DMA_Start_IT <= USED 0
+__asm___19_stm32f4xx_hal_dma_c_c25f65ec____REV16 <= USED 0
+__asm___19_stm32f4xx_hal_dma_c_c25f65ec____REVSH <= USED 0
+;FILE stm32f4xx_hal_gpio.o
+HAL_GPIO_DeInit <= USED 0
+HAL_GPIO_EXTI_Callback <= USED 0
+HAL_GPIO_EXTI_IRQHandler <= USED 0
+HAL_GPIO_LockPin <= USED 0
+HAL_GPIO_ReadPin <= USED 0
+HAL_GPIO_TogglePin <= USED 0
+__asm___20_stm32f4xx_hal_gpio_c_ea787061____REV16 <= USED 0
+__asm___20_stm32f4xx_hal_gpio_c_ea787061____REVSH <= USED 0
+;FILE stm32f4xx_hal_rcc.o
+HAL_RCC_CCSCallback <= USED 0
+HAL_RCC_DeInit <= USED 0
+HAL_RCC_DisableCSS <= USED 0
+HAL_RCC_EnableCSS <= USED 0
+HAL_RCC_GetClockConfig <= USED 0
+HAL_RCC_GetOscConfig <= USED 0
+HAL_RCC_MCOConfig <= USED 0
+HAL_RCC_NMI_IRQHandler <= USED 0
+__asm___19_stm32f4xx_hal_rcc_c_c7d3f187____REV16 <= USED 0
+__asm___19_stm32f4xx_hal_rcc_c_c7d3f187____REVSH <= USED 0
+;FILE stm32f4xx_hal_uart.o
+HAL_HalfDuplex_EnableReceiver <= USED 0
+HAL_HalfDuplex_EnableTransmitter <= USED 0
+HAL_HalfDuplex_Init <= USED 0
+HAL_LIN_Init <= USED 0
+HAL_LIN_SendBreak <= USED 0
+HAL_MultiProcessor_EnterMuteMode <= USED 0
+HAL_MultiProcessor_ExitMuteMode <= USED 0
+HAL_MultiProcessor_Init <= USED 0
+HAL_UART_DMAPause <= USED 0
+HAL_UART_DMAResume <= USED 0
+HAL_UART_DMAStop <= USED 0
+HAL_UART_DeInit <= USED 0
+HAL_UART_ErrorCallback <= USED 0
+HAL_UART_GetError <= USED 0
+HAL_UART_GetState <= USED 0
+HAL_UART_IRQHandler <= USED 0
+HAL_UART_MspDeInit <= USED 0
+HAL_UART_Receive <= USED 0
+HAL_UART_Receive_DMA <= USED 0
+HAL_UART_Receive_IT <= USED 0
+HAL_UART_RxCpltCallback <= USED 0
+HAL_UART_RxHalfCpltCallback <= USED 0
+HAL_UART_Transmit_DMA <= USED 0
+HAL_UART_Transmit_IT <= USED 0
+HAL_UART_TxCpltCallback <= USED 0
+HAL_UART_TxHalfCpltCallback <= USED 0
+__asm___20_stm32f4xx_hal_uart_c_d497114f____REV16 <= USED 0
+__asm___20_stm32f4xx_hal_uart_c_d497114f____REVSH <= USED 0
+;FILE stm32f4xx_hal_usart.o
+HAL_USART_DMAPause <= USED 0
+HAL_USART_DMAResume <= USED 0
+HAL_USART_DMAStop <= USED 0
+HAL_USART_DeInit <= USED 0
+HAL_USART_ErrorCallback <= USED 0
+HAL_USART_GetError <= USED 0
+HAL_USART_GetState <= USED 0
+HAL_USART_IRQHandler <= USED 0
+HAL_USART_Init <= USED 0
+HAL_USART_MspDeInit <= USED 0
+HAL_USART_MspInit <= USED 0
+HAL_USART_Receive <= USED 0
+HAL_USART_Receive_DMA <= USED 0
+HAL_USART_Receive_IT <= USED 0
+HAL_USART_RxCpltCallback <= USED 0
+HAL_USART_RxHalfCpltCallback <= USED 0
+HAL_USART_Transmit <= USED 0
+HAL_USART_TransmitReceive <= USED 0
+HAL_USART_TransmitReceive_DMA <= USED 0
+HAL_USART_TransmitReceive_IT <= USED 0
+HAL_USART_Transmit_DMA <= USED 0
+HAL_USART_Transmit_IT <= USED 0
+HAL_USART_TxCpltCallback <= USED 0
+HAL_USART_TxHalfCpltCallback <= USED 0
+HAL_USART_TxRxCpltCallback <= USED 0
+__asm___21_stm32f4xx_hal_usart_c_32ae8742____REV16 <= USED 0
+__asm___21_stm32f4xx_hal_usart_c_32ae8742____REVSH <= USED 0
+;FILE stm32f4xx_it.o
+__asm___14_stm32f4xx_it_c_b672aa62____REV16 <= USED 0
+__asm___14_stm32f4xx_it_c_b672aa62____REVSH <= USED 0
+;FILE system_stm32f4xx.o
+SystemCoreClockUpdate <= USED 0
+__asm___18_system_stm32f4xx_c_5d646a67____REV16 <= USED 0
+__asm___18_system_stm32f4xx_c_5d646a67____REVSH <= USED 0
+;FILE uart.o
+__asm___6_uart_c_51f9f078____REV16 <= USED 0
+__asm___6_uart_c_51f9f078____REVSH <= USED 0

@@ -1,0 +1,7 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart
+-I C:\ARTYSON\My_pix4\RTE
+-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0
+-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-I C:\Keil\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx
+-o .\objects\stm32f4xx_it.o --omf_browse .\objects\stm32f4xx_it.crf --depend .\objects\stm32f4xx_it.d --feedback ".\Objects\my_pix4.fed" "SRC\main\stm32f4xx_it.c"

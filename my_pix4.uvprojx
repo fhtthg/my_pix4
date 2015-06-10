@@ -10,6 +10,7 @@
       <TargetName>STM32F427</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
+      <pArmCC>5050106::V5.05 update 1 (build 106)::ARMCC</pArmCC>
       <TargetOption>
         <TargetCommonOption>
           <Device>STM32F427VITx</Device>
@@ -365,7 +366,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>.\SRC\lib\CMSIS\Include;.\SRC\lib\STM32F4xx_HAL_Driver\Inc;.\SRC\lib\STM32F4xx_HAL_Driver\Src;.\SRC\led;.\SRC\main;.\SRC\uart</IncludePath>
+              <IncludePath>.\SRC\lib\CMSIS\Include;.\SRC\lib\STM32F4xx_HAL_Driver\Inc;.\SRC\lib\STM32F4xx_HAL_Driver\Src;.\SRC\led;.\SRC\main;.\SRC\uart;.\SRC\timer;.\SRC\spi</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -428,6 +429,21 @@
               <FileType>1</FileType>
               <FilePath>.\SRC\uart\uart.c</FilePath>
             </File>
+            <File>
+              <FileName>timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SRC\timer\timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SRC\spi\spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>MPU6000.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SRC\spi\MPU6000.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -462,6 +478,26 @@
               <FileName>stm32f4xx_hal_dma.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_tim_ex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c</FilePath>
             </File>
           </Files>
         </Group>

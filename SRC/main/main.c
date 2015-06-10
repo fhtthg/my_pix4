@@ -1,10 +1,19 @@
 
-#include "stm32f4xx_hal_conf.h"
-#include "led.h"
-#include "uart.h"
-#include <stdio.h>
 
+#include "main.h"
+#include "timer.h"
+#include "spi.h"
+#include "mpu6000.h"
 
+void assert_failed(uint8_t* file, uint32_t line)
+{
+    while(1)
+    {
+        DebugPrint("配置检查错误!!!!");
+        HAL_Delay(250);
+    }
+
+}
 
 // 开启系统时钟配置
 /// System Clock Configuration
@@ -53,11 +62,21 @@ int main(void)
     LED_Init(LED_AMBER);        // 初始化LED
     UART7_Init();
 
-  while (1)
-  {
-    printf("\n\r UART is ok!!!\n\r");
-    HAL_Delay(1500);
-  }
+    POWER_Init();
+    //1秒一次定时器  用于刷主循环
+    TIM5_Init();
+
+
+    SPI1_Init();     // 初始化SPI1 用于操作传感器
+    MPU6000_Init();  // 初始化MPU6000
+
+
+    while (1)
+    {
+
+       HAL_Delay(1500);
+
+    }
 
 }
 
