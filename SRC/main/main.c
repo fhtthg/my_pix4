@@ -5,6 +5,7 @@
 #include "spi.h"
 #include "mpu6000.h"
 
+
 void assert_failed(uint8_t* file, uint32_t line)
 {
     while(1)
@@ -73,6 +74,7 @@ int main(void)
 
     while (1)
     {
+
 
        HAL_Delay(1500);
 

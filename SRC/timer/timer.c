@@ -3,7 +3,9 @@
 
 #include "stm32f4xx_hal.h"
 #include "led.h"
+#include "mpu6000.h"
 
+extern MPU_report  MPU_report1;
 
 
 TIM_HandleTypeDef    Tim5Handle;
@@ -37,29 +39,22 @@ void TIM5_IRQHandler(void)
 {
 
     __HAL_TIM_CLEAR_IT(&Tim5Handle, TIM_IT_UPDATE);
+    LED_Toggle(LED_AMBER);
 
-
-
-/*
-    if(Timer5cnt >= 250)
+    //秒级 调试信息
+    if(1 == MPU_report1.flag)
     {
-        Timer5cnt = 0;
+        DebugPrint("MPU6000 ACCEL x=%d, y=%d, z=%d\r\n",
+                    MPU_report1.accel_x_raw,
+                    MPU_report1.accel_y_raw,
+                    MPU_report1.accel_z_raw);
+
+
+        DebugPrint("MPU6000 GYRO  x=%d, y=%d, z=%d\r\n\r\n",
+                    MPU_report1.gyro_x_raw,
+                    MPU_report1.gyro_y_raw,
+                    MPU_report1.gyro_z_raw);
     }
-    else
-    {
-        Timer5cnt++;
-    }
-
-    if(Timer5cnt == 0)
-    {
-*/
-        LED_Toggle(LED_AMBER);
- //   }
-
-//     uint32_t tickstart = 0;
-//    tickstart = HAL_GetTick();
-//    printf("test",tickstart);
-
 }
 
 

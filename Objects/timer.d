@@ -32,3 +32,4 @@
 .\objects\timer.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\timer.o: .\SRC\led\led.h
 .\objects\timer.o: .\SRC\uart\uart.h
+.\objects\timer.o: .\SRC\spi\mpu6000.h

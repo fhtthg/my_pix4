@@ -1,5 +1,5 @@
 Dependencies for Project 'my_pix4', Target 'STM32F427': (DO NOT MODIFY !)
-F (.\SRC\main\main.c)(0x55780B07)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\SRC\main\main.c)(0x55792601)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (SRC\main\main.h)(0x5578019F)
 I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
@@ -35,7 +35,7 @@ I (.\SRC\main\main.h)(0x5578019F)
 I (.\SRC\uart\uart.h)(0x55780233)
 I (.\SRC\timer\timer.h)(0x5576B089)
 I (.\SRC\spi\spi.h)(0x5577E10F)
-I (.\SRC\spi\mpu6000.h)(0x5578082D)
+I (.\SRC\spi\mpu6000.h)(0x5579276C)
 F (.\SRC\led\led.c)(0x5577A2B0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
 I (SRC\led\led.h)(0x5577994B)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
@@ -133,7 +133,7 @@ I (SRC\uart\uart.h)(0x55780233)
 I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (.\SRC\led\led.h)(0x5577994B)
 I (.\SRC\main\main.h)(0x5578019F)
-F (.\SRC\timer\timer.c)(0x5576CCB4)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+F (.\SRC\timer\timer.c)(0x557928EC)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
 I (.\SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
@@ -166,6 +166,7 @@ I (.\SRC\led\led.h)(0x5577994B)
 I (.\SRC\main\main.h)(0x5578019F)
 I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (.\SRC\uart\uart.h)(0x55780233)
+I (.\SRC\spi\mpu6000.h)(0x5579276C)
 F (.\SRC\spi\spi.c)(0x55780C13)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
 I (SRC\spi\spi.h)(0x5577E10F)
 I (.\SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
@@ -195,8 +196,8 @@ I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
-F (.\SRC\spi\MPU6000.c)(0x55780A63)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\mpu6000.o --omf_browse .\objects\mpu6000.crf --depend .\objects\mpu6000.d)
-I (SRC\spi\MPU6000.h)(0x5578082D)
+F (.\SRC\spi\MPU6000.c)(0x55792808)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\mpu6000.o --omf_browse .\objects\mpu6000.crf --depend .\objects\mpu6000.d)
+I (SRC\spi\MPU6000.h)(0x5579276C)
 I (.\SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
