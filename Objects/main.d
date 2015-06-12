@@ -35,3 +35,4 @@
 .\objects\main.o: .\SRC\timer\timer.h
 .\objects\main.o: .\SRC\spi\spi.h
 .\objects\main.o: .\SRC\spi\mpu6000.h
+.\objects\main.o: .\SRC\spi\lsm303d.h

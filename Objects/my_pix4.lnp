@@ -6,6 +6,7 @@
 ".\objects\timer.o"
 ".\objects\spi.o"
 ".\objects\mpu6000.o"
+".\objects\lsm303d.o"
 ".\objects\stm32f4xx_hal_gpio.o"
 ".\objects\stm32f4xx_hal.o"
 ".\objects\stm32f4xx_hal_cortex.o"

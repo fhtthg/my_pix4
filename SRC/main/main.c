@@ -4,7 +4,7 @@
 #include "timer.h"
 #include "spi.h"
 #include "mpu6000.h"
-
+#include "lsm303d.h"
 
 void assert_failed(uint8_t* file, uint32_t line)
 {
@@ -71,6 +71,7 @@ int main(void)
     SPI1_Init();     // 初始化SPI1 用于操作传感器
     MPU6000_Init();  // 初始化MPU6000
 
+    LSM303D_Init();
 
     while (1)
     {

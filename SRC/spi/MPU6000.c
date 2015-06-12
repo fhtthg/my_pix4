@@ -38,7 +38,7 @@ void MPU6000_Init(void)
 
     //外部中断初始化
     HAL_NVIC_SetPriority(EXTI15_10_IRQn, 4, 0); // 设置外部引脚中断
-    HAL_NVIC_EnableIRQ(EXTI15_10_IRQn);         // 启动外部引脚中断
+    MPU6000_INT_ENABLE();
 
 
     //寄存器初始化
@@ -62,8 +62,21 @@ void MPU6000_Init(void)
     MPU6000_SET(MPUREG_INT_PIN_CFG, 0x30);  //配置终端模式，高电平出发，读寄存器就消除中断
     HAL_Delay(1);
 
+    DebugPrint("MPU6000初始化完成!\r\n");
+
 }
 
+
+
+void MPU6000_INT_ENABLE(void)
+{
+   HAL_NVIC_EnableIRQ(EXTI15_10_IRQn);
+}
+
+void MPU6000_INT_DISABLE(void)
+{
+   HAL_NVIC_DisableIRQ(EXTI15_10_IRQn);
+}
 
 
 uint8_t MPU6000_RW(uint8_t TxData)

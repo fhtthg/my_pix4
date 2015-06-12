@@ -96,3 +96,24 @@ void SPI1_SENSORS_CTRL_Init(void)
 }
 
 
+
+void SENSORS_INT_ON()
+{
+
+
+
+
+}
+
+
+void SENSORS_INT_OFF()
+{
+
+
+
+
+}
+
+
+
+

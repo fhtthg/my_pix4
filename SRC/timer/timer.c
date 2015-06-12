@@ -4,8 +4,11 @@
 #include "stm32f4xx_hal.h"
 #include "led.h"
 #include "mpu6000.h"
+#include "lsm303d.h"
 
 extern MPU_report  MPU_report1;
+extern LSM303D_ACC_report  LSM303D_ACC_report1;
+extern LSM303D_MAG_report  LSM303D_MAG_report1;
 
 
 TIM_HandleTypeDef    Tim5Handle;
@@ -55,6 +58,23 @@ void TIM5_IRQHandler(void)
                     MPU_report1.gyro_y_raw,
                     MPU_report1.gyro_z_raw);
     }
+
+
+    if(1 == LSM303D_ACC_report1.flag)
+        {
+        DebugPrint("LSM303D ACCEL x=%d, y=%d, z=%d\r\n\r\n",
+                        LSM303D_ACC_report1.accel_x_raw,
+                        LSM303D_ACC_report1.accel_y_raw,
+                        LSM303D_ACC_report1.accel_z_raw);
+
+        DebugPrint("LSM303D MAG x=%d, y=%d, z=%d\r\n\r\n",
+                        LSM303D_MAG_report1.mag_x_raw,
+                        LSM303D_MAG_report1.mag_y_raw,
+                        LSM303D_MAG_report1.mag_z_raw);
+
+        }
+
+
 }
 
 

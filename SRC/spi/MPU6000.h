@@ -94,6 +94,11 @@ typedef struct {
 
 
 void MPU6000_Init(void);
+
+void MPU6000_INT_ENABLE(void);
+
+void MPU6000_INT_DISABLE(void);
+
 void MPU6000_CS_ENABLE(void);
 void MPU6000_CS_DISABLE(void);
 uint8_t MPU6000_RW(uint8_t TxData);

@@ -33,3 +33,4 @@
 .\objects\timer.o: .\SRC\led\led.h
 .\objects\timer.o: .\SRC\uart\uart.h
 .\objects\timer.o: .\SRC\spi\mpu6000.h
+.\objects\timer.o: .\SRC\spi\lsm303d.h

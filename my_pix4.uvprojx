@@ -444,6 +444,11 @@
               <FileType>1</FileType>
               <FilePath>.\SRC\spi\MPU6000.c</FilePath>
             </File>
+            <File>
+              <FileName>lsm303d.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SRC\spi\lsm303d.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
