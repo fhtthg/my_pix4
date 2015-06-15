@@ -9,9 +9,7 @@
 
 MPU_report  MPU_report1;
 extern SPI_HandleTypeDef Spi1Handle;
-
-
-
+uint16_t    MPU_RD_CNT;
 
 
 void MPU6000_Init(void)
@@ -48,14 +46,14 @@ void MPU6000_Init(void)
     HAL_Delay(1);
     MPU6000_SET(MPUREG_USER_CTRL,0x10);     //使能SPI总线 屏蔽I2C //关闭了FIFO
     HAL_Delay(1);
-//    MPU6000_SET(MPUREG_SMPLRT_DIV,0x00);    //采样分频器 典型值0x00(1kHz);
-    MPU6000_SET(MPUREG_SMPLRT_DIV,0xF9);    //采样分频器 典型值0xFA(4Hz);
+    MPU6000_SET(MPUREG_SMPLRT_DIV,0x00);    //采样分频器 典型值0x00(1kHz);
+    //MPU6000_SET(MPUREG_SMPLRT_DIV,0xF9);    //采样分频器 典型值0xFA(4Hz);
     HAL_Delay(1);
-    MPU6000_SET(MPUREG_CONFIG,0x06);        //低通滤波频率，典型值0x01(184Hz)
+    MPU6000_SET(MPUREG_CONFIG,0x03);        //低通滤波频率 0x03设为42Hz
     HAL_Delay(1);
-    MPU6000_SET(MPUREG_GYRO_CONFIG,0x10);   //陀螺仪最大量程 +-1000度/秒 ，不自检
+    MPU6000_SET(MPUREG_GYRO_CONFIG,0x18);   //陀螺仪最大量程 +-2000度/秒 ，不自检
     HAL_Delay(1);
-    MPU6000_SET(MPUREG_ACCEL_CONFIG,0x08);  //加速度计最大量程  +-4g ，不自检
+    MPU6000_SET(MPUREG_ACCEL_CONFIG,0x10);  //加速度计最大量程  +-8g ，不自检
     HAL_Delay(1);
     MPU6000_SET(MPUREG_INT_ENABLE, 0x01);   //开数据中断，即传感器数据准备好以后就出发中断
     HAL_Delay(1);
@@ -153,9 +151,9 @@ void EXTI15_10_IRQHandler(void)
 
     if(__HAL_GPIO_EXTI_GET_IT(MPU_DRDY_PIN) != RESET)
       {
-        __HAL_GPIO_EXTI_CLEAR_IT(MPU_DRDY_PIN);
-
         MPU6000_RAW_READY(&MPU_report1);
+        MPU_RD_CNT++;
+        __HAL_GPIO_EXTI_CLEAR_IT(MPU_DRDY_PIN);
       }
 
 }

@@ -10,6 +10,7 @@ LSM303D_MAG_report  LSM303D_MAG_report1;
 
 extern SPI_HandleTypeDef Spi1Handle;
 
+uint16_t    LSM303D_RD_CNT;
 
 
 void LSM303D_Init(void)
@@ -96,6 +97,9 @@ void LSM303D_Init(void)
 
 
     MPU6000_INT_ENABLE();       // 完成配置 重新开启被关掉的中断
+
+    DebugPrint("LSM303D初始化完成!\r\n");
+
 }
 
 
@@ -136,7 +140,7 @@ void EXTI4_IRQHandler(void)
     if(__HAL_GPIO_EXTI_GET_IT(LSM303D_ACC_DRDY_PIN) != RESET)
       {
 
-        LSM303D_ACC_READY(&LSM303D_ACC_report1);
+       // LSM303D_ACC_READY(&LSM303D_ACC_report1);
 
         __HAL_GPIO_EXTI_CLEAR_IT(LSM303D_ACC_DRDY_PIN);
       }
@@ -184,6 +188,7 @@ void EXTI1_IRQHandler(void)
       {
 
         LSM303D_MAG_READY(&LSM303D_MAG_report1);
+        LSM303D_RD_CNT++;
         __HAL_GPIO_EXTI_CLEAR_IT(LSM303D_MAG_DRDY_PIN);
       }
 

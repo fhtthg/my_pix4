@@ -7,8 +7,13 @@
 #include "lsm303d.h"
 
 extern MPU_report  MPU_report1;
+extern uint16_t    MPU_RD_CNT;
+
 extern LSM303D_ACC_report  LSM303D_ACC_report1;
 extern LSM303D_MAG_report  LSM303D_MAG_report1;
+extern uint16_t    LSM303D_RD_CNT;
+
+
 
 
 TIM_HandleTypeDef    Tim5Handle;
@@ -45,34 +50,34 @@ void TIM5_IRQHandler(void)
     LED_Toggle(LED_AMBER);
 
     //秒级 调试信息
-    if(1 == MPU_report1.flag)
-    {
+        // mpu6000信息
         DebugPrint("MPU6000 ACCEL x=%d, y=%d, z=%d\r\n",
                     MPU_report1.accel_x_raw,
                     MPU_report1.accel_y_raw,
                     MPU_report1.accel_z_raw);
 
 
-        DebugPrint("MPU6000 GYRO  x=%d, y=%d, z=%d\r\n\r\n",
+        DebugPrint("MPU6000 GYRO  x=%d, y=%d, z=%d\r\n",
                     MPU_report1.gyro_x_raw,
                     MPU_report1.gyro_y_raw,
                     MPU_report1.gyro_z_raw);
-    }
+        DebugPrint("cnt=%d\r\n\r\n",MPU_RD_CNT);
+        MPU_RD_CNT=0;
 
 
-    if(1 == LSM303D_ACC_report1.flag)
-        {
-        DebugPrint("LSM303D ACCEL x=%d, y=%d, z=%d\r\n\r\n",
-                        LSM303D_ACC_report1.accel_x_raw,
-                        LSM303D_ACC_report1.accel_y_raw,
-                        LSM303D_ACC_report1.accel_z_raw);
+      //  DebugPrint("LSM303D ACCEL x=%d, y=%d, z=%d\r\n",
+      //              LSM303D_ACC_report1.accel_x_raw,
+      //              LSM303D_ACC_report1.accel_y_raw,
+      //              LSM303D_ACC_report1.accel_z_raw);
 
-        DebugPrint("LSM303D MAG x=%d, y=%d, z=%d\r\n\r\n",
+
+        // LSM303D MAG信息
+        DebugPrint("LSM303D MAG x=%d, y=%d, z=%d\r\n",
                         LSM303D_MAG_report1.mag_x_raw,
                         LSM303D_MAG_report1.mag_y_raw,
                         LSM303D_MAG_report1.mag_z_raw);
-
-        }
+        DebugPrint("cnt=%d\r\n\r\n",LSM303D_RD_CNT);
+        LSM303D_RD_CNT=0;
 
 
 }
