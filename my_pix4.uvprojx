@@ -366,7 +366,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>.\SRC\lib\CMSIS\Include;.\SRC\lib\STM32F4xx_HAL_Driver\Inc;.\SRC\lib\STM32F4xx_HAL_Driver\Src;.\SRC\led;.\SRC\main;.\SRC\uart;.\SRC\timer;.\SRC\spi</IncludePath>
+              <IncludePath>.\SRC\lib\CMSIS\Include;.\SRC\lib\STM32F4xx_HAL_Driver\Inc;.\SRC\lib\STM32F4xx_HAL_Driver\Src;.\SRC\led;.\SRC\main;.\SRC\uart;.\SRC\timer;.\SRC\spi;.\SRC\i2c</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -449,6 +449,16 @@
               <FileType>1</FileType>
               <FilePath>.\SRC\spi\lsm303d.c</FilePath>
             </File>
+            <File>
+              <FileName>i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SRC\i2c\i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>rgbled.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SRC\i2c\rgbled.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -503,6 +513,16 @@
               <FileName>stm32f4xx_hal_spi.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_i2c_ex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c</FilePath>
             </File>
           </Files>
         </Group>

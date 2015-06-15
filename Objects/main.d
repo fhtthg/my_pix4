@@ -22,12 +22,15 @@
 .\objects\main.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h
 .\objects\main.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h
 .\objects\main.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h
+.\objects\main.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h
+.\objects\main.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h
 .\objects\main.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h
 .\objects\main.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h
 .\objects\main.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h
 .\objects\main.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h
 .\objects\main.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h
 .\objects\main.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h
+.\objects\main.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h
 .\objects\main.o: .\SRC\led\led.h
 .\objects\main.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h
 .\objects\main.o: .\SRC\main\main.h
@@ -36,3 +39,5 @@
 .\objects\main.o: .\SRC\spi\spi.h
 .\objects\main.o: .\SRC\spi\mpu6000.h
 .\objects\main.o: .\SRC\spi\lsm303d.h
+.\objects\main.o: .\SRC\i2c\i2c.h
+.\objects\main.o: .\SRC\i2c\rgbled.h

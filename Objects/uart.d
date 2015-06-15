@@ -21,12 +21,15 @@
 .\objects\uart.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h
 .\objects\uart.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h
 .\objects\uart.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h
+.\objects\uart.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h
+.\objects\uart.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h
 .\objects\uart.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h
 .\objects\uart.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h
 .\objects\uart.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h
 .\objects\uart.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h
 .\objects\uart.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h
 .\objects\uart.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h
+.\objects\uart.o: .\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h
 .\objects\uart.o: SRC\uart\uart.h
 .\objects\uart.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\uart.o: .\SRC\led\led.h

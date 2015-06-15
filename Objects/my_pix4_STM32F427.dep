@@ -1,8 +1,8 @@
 Dependencies for Project 'my_pix4', Target 'STM32F427': (DO NOT MODIFY !)
-F (.\SRC\main\main.c)(0x557A8DEC)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\SRC\main\main.c)(0x557E997D)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (SRC\main\main.h)(0x5578019F)
 I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
+I (SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
 I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
@@ -23,12 +23,15 @@ I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
 I (.\SRC\led\led.h)(0x5577994B)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
 I (.\SRC\main\main.h)(0x5578019F)
@@ -37,10 +40,12 @@ I (.\SRC\timer\timer.h)(0x5576B089)
 I (.\SRC\spi\spi.h)(0x5577E10F)
 I (.\SRC\spi\mpu6000.h)(0x557A8C0E)
 I (.\SRC\spi\lsm303d.h)(0x557A9654)
-F (.\SRC\led\led.c)(0x5577A2B0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (.\SRC\i2c\i2c.h)(0x557E940F)
+I (.\SRC\i2c\rgbled.h)(0x557E99EA)
+F (.\SRC\led\led.c)(0x557E429B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
 I (SRC\led\led.h)(0x5577994B)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
-I (.\SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
+I (.\SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
 I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
@@ -61,20 +66,23 @@ I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
 I (.\SRC\main\main.h)(0x5578019F)
 I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (.\SRC\led\led.h)(0x5577994B)
 I (.\SRC\uart\uart.h)(0x55780233)
-F (.\SRC\main\stm32f4xx_it.c)(0x5570FF2C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_it.o --omf_browse .\objects\stm32f4xx_it.crf --depend .\objects\stm32f4xx_it.d)
+F (.\SRC\main\stm32f4xx_it.c)(0x5570FF2C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_it.o --omf_browse .\objects\stm32f4xx_it.crf --depend .\objects\stm32f4xx_it.d)
 I (SRC\main\stm32f4xx_it.h)(0x5570FFEC)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
-I (.\SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
+I (.\SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
 I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
@@ -95,15 +103,18 @@ I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
-F (.\SRC\uart\uart.c)(0x55780249)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
+F (.\SRC\uart\uart.c)(0x55780249)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
-I (.\SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
+I (.\SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
 I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
@@ -124,19 +135,22 @@ I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
 I (SRC\uart\uart.h)(0x55780233)
 I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (.\SRC\led\led.h)(0x5577994B)
 I (.\SRC\main\main.h)(0x5578019F)
-F (.\SRC\timer\timer.c)(0x557E3BE2)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+F (.\SRC\timer\timer.c)(0x557E4C1B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
-I (.\SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
+I (.\SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
 I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
@@ -157,21 +171,24 @@ I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
 I (.\SRC\led\led.h)(0x5577994B)
 I (.\SRC\main\main.h)(0x5578019F)
 I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (.\SRC\uart\uart.h)(0x55780233)
 I (.\SRC\spi\mpu6000.h)(0x557A8C0E)
 I (.\SRC\spi\lsm303d.h)(0x557A9654)
-F (.\SRC\spi\spi.c)(0x557E3B6F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+F (.\SRC\spi\spi.c)(0x557E3B6F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
 I (SRC\spi\spi.h)(0x5577E10F)
-I (.\SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
+I (.\SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
 I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
@@ -192,15 +209,18 @@ I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
-F (.\SRC\spi\MPU6000.c)(0x557E340E)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\mpu6000.o --omf_browse .\objects\mpu6000.crf --depend .\objects\mpu6000.d)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
+F (.\SRC\spi\MPU6000.c)(0x557E340E)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\mpu6000.o --omf_browse .\objects\mpu6000.crf --depend .\objects\mpu6000.d)
 I (SRC\spi\MPU6000.h)(0x557A8C0E)
-I (.\SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
+I (.\SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
 I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
@@ -221,20 +241,23 @@ I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
 I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (.\SRC\main\main.h)(0x5578019F)
 I (.\SRC\led\led.h)(0x5577994B)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
 I (.\SRC\uart\uart.h)(0x55780233)
-F (.\SRC\spi\lsm303d.c)(0x557E3B9F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\lsm303d.o --omf_browse .\objects\lsm303d.crf --depend .\objects\lsm303d.d)
+F (.\SRC\spi\lsm303d.c)(0x557E3B9F)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\lsm303d.o --omf_browse .\objects\lsm303d.crf --depend .\objects\lsm303d.d)
 I (SRC\spi\lsm303d.h)(0x557A9654)
-I (.\SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
+I (.\SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
 I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
@@ -255,21 +278,25 @@ I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
 I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (SRC\spi\MPU6000.h)(0x557A8C0E)
 I (.\SRC\main\main.h)(0x5578019F)
 I (.\SRC\led\led.h)(0x5577994B)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
 I (.\SRC\uart\uart.h)(0x55780233)
-F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c)(0x55779FAE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal_gpio.o --omf_browse .\objects\stm32f4xx_hal_gpio.crf --depend .\objects\stm32f4xx_hal_gpio.d)
+F (.\SRC\i2c\i2c.c)(0x557E9948)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (SRC\i2c\i2c.h)(0x557E940F)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
-I (.\SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
+I (.\SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
 I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
@@ -290,15 +317,19 @@ I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
-F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c)(0x5577F3D6)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal.o --omf_browse .\objects\stm32f4xx_hal.crf --depend .\objects\stm32f4xx_hal.d)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
+F (.\SRC\i2c\rgbled.c)(0x557E99E7)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\rgbled.o --omf_browse .\objects\rgbled.crf --depend .\objects\rgbled.d)
+I (SRC\i2c\rgbled.h)(0x557E99EA)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
-I (.\SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
+I (.\SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
 I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
@@ -319,15 +350,18 @@ I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
-F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c)(0x55767B9E)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal_cortex.o --omf_browse .\objects\stm32f4xx_hal_cortex.crf --depend .\objects\stm32f4xx_hal_cortex.d)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
+F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c)(0x55779FAE)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal_gpio.o --omf_browse .\objects\stm32f4xx_hal_gpio.crf --depend .\objects\stm32f4xx_hal_gpio.d)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
-I (.\SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
+I (.\SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
 I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
@@ -348,15 +382,18 @@ I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
-F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c)(0x53ABA05C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal_rcc.o --omf_browse .\objects\stm32f4xx_hal_rcc.crf --depend .\objects\stm32f4xx_hal_rcc.d)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
+F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c)(0x5577F3D6)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal.o --omf_browse .\objects\stm32f4xx_hal.crf --depend .\objects\stm32f4xx_hal.d)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
-I (.\SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
+I (.\SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
 I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
@@ -377,15 +414,18 @@ I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
-F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c)(0x557685E7)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal_uart.o --omf_browse .\objects\stm32f4xx_hal_uart.crf --depend .\objects\stm32f4xx_hal_uart.d)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
+F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c)(0x55767B9E)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal_cortex.o --omf_browse .\objects\stm32f4xx_hal_cortex.crf --depend .\objects\stm32f4xx_hal_cortex.d)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
-I (.\SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
+I (.\SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
 I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
@@ -406,15 +446,18 @@ I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
-F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c)(0x53ABA05C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal_dma.o --omf_browse .\objects\stm32f4xx_hal_dma.crf --depend .\objects\stm32f4xx_hal_dma.d)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
+F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c)(0x53ABA05C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal_rcc.o --omf_browse .\objects\stm32f4xx_hal_rcc.crf --depend .\objects\stm32f4xx_hal_rcc.d)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
-I (.\SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
+I (.\SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
 I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
@@ -435,15 +478,18 @@ I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
-F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c)(0x53ABA05C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal_usart.o --omf_browse .\objects\stm32f4xx_hal_usart.crf --depend .\objects\stm32f4xx_hal_usart.d)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
+F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c)(0x557685E7)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal_uart.o --omf_browse .\objects\stm32f4xx_hal_uart.crf --depend .\objects\stm32f4xx_hal_uart.d)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
-I (.\SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
+I (.\SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
 I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
@@ -464,15 +510,18 @@ I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
-F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c)(0x53ABA05C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal_tim_ex.o --omf_browse .\objects\stm32f4xx_hal_tim_ex.crf --depend .\objects\stm32f4xx_hal_tim_ex.d)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
+F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c)(0x53ABA05C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal_dma.o --omf_browse .\objects\stm32f4xx_hal_dma.crf --depend .\objects\stm32f4xx_hal_dma.d)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
-I (.\SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
+I (.\SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
 I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
@@ -493,15 +542,18 @@ I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
-F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c)(0x53ABA05C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal_tim.o --omf_browse .\objects\stm32f4xx_hal_tim.crf --depend .\objects\stm32f4xx_hal_tim.d)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
+F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c)(0x53ABA05C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal_usart.o --omf_browse .\objects\stm32f4xx_hal_usart.crf --depend .\objects\stm32f4xx_hal_usart.d)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
-I (.\SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
+I (.\SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
 I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
@@ -522,15 +574,18 @@ I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
-F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c)(0x53ABA05C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal_spi.o --omf_browse .\objects\stm32f4xx_hal_spi.crf --depend .\objects\stm32f4xx_hal_spi.d)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
+F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c)(0x53ABA05C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal_tim_ex.o --omf_browse .\objects\stm32f4xx_hal_tim_ex.crf --depend .\objects\stm32f4xx_hal_tim_ex.d)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
-I (.\SRC\main\stm32f4xx_hal_conf.h)(0x55779A49)
+I (.\SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
 I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
@@ -551,14 +606,145 @@ I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
 I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
+F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c)(0x53ABA05C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal_tim.o --omf_browse .\objects\stm32f4xx_hal_tim.crf --depend .\objects\stm32f4xx_hal_tim.d)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
+I (.\SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f427xx.h)(0x53ABA05A)
+I (.\SRC\lib\CMSIS\Include\core_cm4.h)(0x53ABA044)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\SRC\lib\CMSIS\Include\core_cmInstr.h)(0x53ABA044)
+I (.\SRC\lib\CMSIS\Include\core_cmFunc.h)(0x53ABA044)
+I (.\SRC\lib\CMSIS\Include\core_cm4_simd.h)(0x53ABA044)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53ABA05A)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x53ABA062)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x53ABA062)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
+F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c)(0x53ABA05C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal_spi.o --omf_browse .\objects\stm32f4xx_hal_spi.crf --depend .\objects\stm32f4xx_hal_spi.d)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
+I (.\SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f427xx.h)(0x53ABA05A)
+I (.\SRC\lib\CMSIS\Include\core_cm4.h)(0x53ABA044)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\SRC\lib\CMSIS\Include\core_cmInstr.h)(0x53ABA044)
+I (.\SRC\lib\CMSIS\Include\core_cmFunc.h)(0x53ABA044)
+I (.\SRC\lib\CMSIS\Include\core_cm4_simd.h)(0x53ABA044)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53ABA05A)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x53ABA062)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x53ABA062)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
+F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c)(0x53ABA05C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal_i2c.o --omf_browse .\objects\stm32f4xx_hal_i2c.crf --depend .\objects\stm32f4xx_hal_i2c.d)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
+I (.\SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f427xx.h)(0x53ABA05A)
+I (.\SRC\lib\CMSIS\Include\core_cm4.h)(0x53ABA044)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\SRC\lib\CMSIS\Include\core_cmInstr.h)(0x53ABA044)
+I (.\SRC\lib\CMSIS\Include\core_cmFunc.h)(0x53ABA044)
+I (.\SRC\lib\CMSIS\Include\core_cm4_simd.h)(0x53ABA044)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53ABA05A)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x53ABA062)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x53ABA062)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
+F (.\SRC\lib\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c)(0x53ABA05C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\stm32f4xx_hal_i2c_ex.o --omf_browse .\objects\stm32f4xx_hal_i2c_ex.crf --depend .\objects\stm32f4xx_hal_i2c_ex.d)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53ABA060)
+I (.\SRC\main\stm32f4xx_hal_conf.h)(0x557E772E)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53ABA060)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f427xx.h)(0x53ABA05A)
+I (.\SRC\lib\CMSIS\Include\core_cm4.h)(0x53ABA044)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (.\SRC\lib\CMSIS\Include\core_cmInstr.h)(0x53ABA044)
+I (.\SRC\lib\CMSIS\Include\core_cmFunc.h)(0x53ABA044)
+I (.\SRC\lib\CMSIS\Include\core_cm4_simd.h)(0x53ABA044)
+I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53ABA05A)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x53ABA062)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x53ABA062)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma2d.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c.h)(0x557E763B)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_i2c_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h)(0x5576BE31)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53ABA060)
+I (.\SRC\lib\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53ABA060)
 F (RTE\Device\STM32F427VITx\startup_stm32f427xx.s)(0x557A9618)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "_RTE_ SETA 1" --pd "STM32F427xx SETA 1"--list .\listings\startup_stm32f427xx.lst --xref -o .\objects\startup_stm32f427xx.o --depend .\objects\startup_stm32f427xx.d)
-F (RTE\Device\STM32F427VITx\system_stm32f4xx.c)(0x5574F46D)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+F (RTE\Device\STM32F427VITx\system_stm32f4xx.c)(0x5574F46D)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\SRC\lib\CMSIS\Include -I.\SRC\lib\STM32F4xx_HAL_Driver\Inc -I.\SRC\lib\STM32F4xx_HAL_Driver\Src -I.\SRC\led -I.\SRC\main -I.\SRC\uart -I.\SRC\timer -I.\SRC\spi -I.\SRC\i2c-I C:\ARTYSON\My_pix4\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F427xx-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
 I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x54FFE34C)
 I (C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f427xx.h)(0x53ABA05A)
 I (.\SRC\lib\CMSIS\Include\core_cm4.h)(0x53ABA044)
